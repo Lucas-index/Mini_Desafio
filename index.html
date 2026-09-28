@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lucas Carvalho | Desenvolvedor Back-end</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Lucas Carvalho <small>Desenvolvedor Back-end</small></h1>
+    <div class="menu">
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre Mim</h2>
+      <div class="perfil">
+        <img
+                src="assets/197423611.jpg"
+                alt="Foto de perfil de Lucas Carvalho"
+          width="150"
+          height="150">
+        <div>
+          <p>Olá! Sou desenvolvedor back-end e gosto de transformar ideias em soluções eficientes e escaláveis. Trabalho com linguagens como Python, Java e PHP, além de bancos de dados relacionais e não relacionais.</p>
+          <h3>Minhas Habilidades</h3>
+          <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos">
+      <h2>Meus Projetos</h2>
+      <div class="tabela-rolagem">
+        <table>
+          <caption class="sr-only" style="position:absolute;left:-9999px;">Lista de projetos desenvolvidos</caption>
+          <thead>
+            <tr>
+              <th scope="col">Projeto</th>
+              <th scope="col">Tecnologias</th>
+              <th scope="col">Status</th>
+              <th scope="col">Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Portfólio Pessoal</td>
+              <td>Python, Django</td>
+              <td>Concluído</td>
+              <td><a href="https://github.com/" target="_blank" rel="noopener noreferrer">Ver projeto</a></td>
+            </tr>
+            <tr>
+              <td>Lista de Tarefas</td>
+              <td>Python, Flask</td>
+              <td>Em andamento</td>
+              <td><a href="https://github.com/" target="_blank" rel="noopener noreferrer">Ver projeto</a></td>
+            </tr>
+            <tr>
+              <td>Loja Virtual</td>
+              <td>Python, Flask</td>
+              <td>Em andamento</td>
+              <td><a href="https://github.com/" target="_blank" rel="noopener noreferrer">Ver projeto</a></td>
+            </tr>
+            <tr>
+              <td>Blog Pessoal</td>
+              <td>Python, Flask</td>
+              <td>Planejado</td>
+              <td><a href="https://github.com/" target="_blank" rel="noopener noreferrer">Ver projeto</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Entre em Contato</h2>
+      <form action="#" method="post">
+        <div class="agrupamento">
+          <h3>Dados do Contato</h3>
+        <div class="campo">
+          <input type="text" id="nome" name="nome" placeholder="Nome" aria-label="Nome" required>
+        </div>
+
+        <div class="campo">
+          <input type="email" id="email" name="email" placeholder="Email" aria-label="Email" required>
+        </div>
+
+        <div class="campo">
+          <select id="assunto" name="assunto" aria-label="Assunto" required>
+            <option value="" selected disabled>Assunto</option>
+            <option value="orcamento">Orçamento</option>
+            <option value="duvida">Dúvida</option>
+            <option value="parceria">Parceria</option>
+            <option value="outro">Outro</option>
+          </select>
+        </div>
+
+        <div class="campo">
+          <input type="text" id="mensagem" name="mensagem" placeholder="Mensagem" aria-label="Mensagem" required>
+        </div>
+
+        <button type="submit">Enviar mensagem</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Lucas Carvalho. Todos os direitos reservados.</p>
+    <p>
+      E-mail: <a href="mailto:lucas.carvalho@exemplo.com">lucascarvalho201045@gmail.com</a>
+      &nbsp;|&nbsp;
+      Telefone: <a href="tel:+5511999999999">(11) 99999-9999</a>
+    </p>
+  </footer>
+
+</body>
+</html>
