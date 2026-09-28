@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -21,15 +22,24 @@
   <main>
     <section id="sobre">
       <h2>Sobre Mim</h2>
+
       <div class="perfil">
         <img
-                src="assets/197423611.jpg"
-                alt="Foto de perfil de Lucas Carvalho"
+          src="assets/197423611.jpg"
+          alt="Foto de perfil de Lucas Carvalho"
           width="150"
           height="150">
+
         <div>
-          <p>Olá! Sou desenvolvedor back-end e gosto de transformar ideias em soluções eficientes e escaláveis. Trabalho com linguagens como Python, Java e PHP, além de bancos de dados relacionais e não relacionais.</p>
+          <p>
+            Olá! Sou desenvolvedor back-end e gosto de transformar ideias
+            em soluções eficientes e escaláveis. Trabalho com linguagens
+            como Python, Java e PHP, além de bancos de dados relacionais
+            e não relacionais.
+          </p>
+
           <h3>Minhas Habilidades</h3>
+
           <ul>
             <li>Python</li>
             <li>Java</li>
@@ -43,9 +53,11 @@
 
     <section id="projetos">
       <h2>Meus Projetos</h2>
+
       <div class="tabela-rolagem">
         <table>
-          <caption class="sr-only" style="position:absolute;left:-9999px;">Lista de projetos desenvolvidos</caption>
+          <caption>Lista de projetos desenvolvidos</caption>
+
           <thead>
             <tr>
               <th scope="col">Projeto</th>
@@ -54,30 +66,50 @@
               <th scope="col">Link</th>
             </tr>
           </thead>
+
           <tbody>
             <tr>
               <td>Portfólio Pessoal</td>
               <td>Python, Django</td>
               <td>Concluído</td>
-              <td><a href="https://github.com/" target="_blank" rel="noopener noreferrer">Ver projeto</a></td>
+              <td>
+                <a href="https://github.com/" target="_blank">
+                  Ver projeto
+                </a>
+              </td>
             </tr>
+
             <tr>
               <td>Lista de Tarefas</td>
               <td>Python, Flask</td>
               <td>Em andamento</td>
-              <td><a href="https://github.com/" target="_blank" rel="noopener noreferrer">Ver projeto</a></td>
+              <td>
+                <a href="https://github.com/" target="_blank">
+                  Ver projeto
+                </a>
+              </td>
             </tr>
+
             <tr>
               <td>Loja Virtual</td>
               <td>Python, Flask</td>
               <td>Em andamento</td>
-              <td><a href="https://github.com/" target="_blank" rel="noopener noreferrer">Ver projeto</a></td>
+              <td>
+                <a href="https://github.com/" target="_blank">
+                  Ver projeto
+                </a>
+              </td>
             </tr>
+
             <tr>
               <td>Blog Pessoal</td>
               <td>Python, Flask</td>
               <td>Planejado</td>
-              <td><a href="https://github.com/" target="_blank" rel="noopener noreferrer">Ver projeto</a></td>
+              <td>
+                <a href="https://github.com/" target="_blank">
+                  Ver projeto
+                </a>
+              </td>
             </tr>
           </tbody>
         </table>
@@ -86,45 +118,125 @@
 
     <section id="contato">
       <h2>Entre em Contato</h2>
+
       <form action="#" method="post">
-        <div class="agrupamento">
-          <h3>Dados do Contato</h3>
-        <div class="campo">
-          <input type="text" id="nome" name="nome" placeholder="Nome" aria-label="Nome" required>
-        </div>
 
-        <div class="campo">
-          <input type="email" id="email" name="email" placeholder="Email" aria-label="Email" required>
-        </div>
+        <h3>Dados do Contato</h3>
 
-        <div class="campo">
-          <select id="assunto" name="assunto" aria-label="Assunto" required>
-            <option value="" selected disabled>Assunto</option>
-            <option value="orcamento">Orçamento</option>
-            <option value="duvida">Dúvida</option>
-            <option value="parceria">Parceria</option>
-            <option value="outro">Outro</option>
-          </select>
-        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Campo</th>
+              <th>Informação</th>
+            </tr>
+          </thead>
 
-        <div class="campo">
-          <input type="text" id="mensagem" name="mensagem" placeholder="Mensagem" aria-label="Mensagem" required>
-        </div>
+          <tbody>
+            <tr>
+              <td>Nome</td>
+              <td>
+                <input
+                  type="text"
+                  id="nome"
+                  name="nome"
+                  placeholder="Nome"
+                  aria-label="Nome"
+                  required>
+              </td>
+            </tr>
 
-        <button type="submit">Enviar mensagem</button>
-        </div>
+            <tr>
+              <td>Email</td>
+              <td>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                  aria-label="Email"
+                  required>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Assunto</td>
+              <td>
+                <select
+                  id="assunto"
+                  name="assunto"
+                  aria-label="Assunto"
+                  required>
+
+                  <option value="" selected disabled>
+                    Assunto
+                  </option>
+
+                  <option value="orcamento">
+                    Orçamento
+                  </option>
+
+                  <option value="duvida">
+                    Dúvida
+                  </option>
+
+                  <option value="parceria">
+                    Parceria
+                  </option>
+
+                  <option value="outro">
+                    Outro
+                  </option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Mensagem</td>
+              <td>
+                <input
+                  type="text"
+                  id="mensagem"
+                  name="mensagem"
+                  placeholder="Mensagem"
+                  aria-label="Mensagem"
+                  required>
+              </td>
+            </tr>
+
+            <tr>
+              <td colspan="2">
+                <button type="submit">
+                  Enviar mensagem
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
       </form>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2026 Lucas Carvalho. Todos os direitos reservados.</p>
     <p>
-      E-mail: <a href="mailto:lucas.carvalho@exemplo.com">lucascarvalho201045@gmail.com</a>
+      &copy; 2026 Lucas Carvalho. Todos os direitos reservados.
+    </p>
+
+    <p>
+      E-mail:
+      <a href="mailto:lucascarvalho201045@gmail.com">
+        lucascarvalho201045@gmail.com
+      </a>
+
       &nbsp;|&nbsp;
-      Telefone: <a href="tel:+5511999999999">(11) 99999-9999</a>
+
+      Telefone:
+      <a href="tel:+5511999999999">
+        (11) 99999-9999
+      </a>
     </p>
   </footer>
 
 </body>
 </html>
+```
